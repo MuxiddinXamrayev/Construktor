@@ -1,0 +1,622 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: #f5f6f7;
+}
+header .container nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container nav .nav1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .container nav .nav1 .burger {
+  padding: 8px 10px;
+  background: white;
+  border-radius: 50%;
+}
+header .container nav .nav1 h3 {
+  color: #4d5e80;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+header .container nav .nav2 ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .container nav .nav2 ul li a {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+}
+header .container nav .nav3 {
+  background: #fff;
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 15px 20px;
+}
+header .container nav .nav3 .chek {
+  display: none;
+}
+header .container nav .nav3 input {
+  border: none;
+  outline: none;
+  width: 230px;
+  color: #dfe1e3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .container nav .nav4 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .container nav .nav4 .icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .container nav .nav4 .icon p {
+  color: #6b7a99;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+}
+header .container nav .nav4 .icons {
+  display: flex;
+  gap: 10px;
+}
+header .container nav .nav4 .icons .poisk {
+  display: none;
+}
+header .container nav .nav4 .icons .account {
+  display: none;
+}
+header .container nav .nav4 .icons .light {
+  padding: 7px 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+header .section {
+  max-width: 1600px;
+  display: flex;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+header .section .left {
+  border-right: 2px solid #d2d2d5;
+  padding: 30px 25px 30px 29px;
+}
+header .section .left .iconlar ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 305px;
+}
+header .section .left .iconlar ul li {
+  padding: 7px 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+header .section .left .avatar ul li {
+  padding-bottom: 21px;
+}
+header .section .left .avatar ul li img {
+  border-radius: 50%;
+}
+header .section .left .avatar ul .bottom {
+  padding: 7px 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+header .section input {
+  display: none;
+}
+header .section .main {
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+}
+header .section .main .indikators .carta {
+  padding-bottom: 75px;
+  display: flex;
+  align-items: center;
+}
+header .section .main .indikators .carta .plastic .my {
+  width: 350px;
+  padding: 30px;
+  background: linear-gradient(197deg, #ffa346 0%, #f2e32e 100%);
+  border-radius: 10px;
+  box-shadow: 0px 50px 80px 0px rgba(230, 46, 46, 0.15);
+  margin-right: 18px;
+}
+header .section .main .indikators .carta .plastic .my ul li {
+  padding-bottom: 17px;
+}
+header .section .main .indikators .carta .plastic .my ul .one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .section .main .indikators .carta .plastic .my ul .one h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+}
+header .section .main .indikators .carta .plastic .my ul .one h4 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
+header .section .main .indikators .carta .plastic .my ul .two {
+  display: flex;
+  gap: 15px;
+}
+header .section .main .indikators .carta .plastic .my ul .two span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+header .section .main .indikators .carta .plastic .my ul .three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .section .main .indikators .carta .plastic .my ul .three h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
+header .section .main .indikators .carta .plastic .blue-c {
+  display: none;
+  background: linear-gradient(197deg, #6246ff 0%, #ffb9b9 100%);
+}
+header .section .main .indikators .carta .plastic .dark-c {
+  display: none;
+  background: linear-gradient(197deg, #3b3b3b 0%, #767676 100%);
+}
+header .section .main .indikators .carta .scroll {
+  width: 5px;
+  height: 45px;
+  background: #ff6633;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+header .section .main .indikators .carta .visa-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .section .main .indikators .carta .visa-card .visa {
+  padding: 4px 7px;
+  width: 65px;
+  height: 45px;
+  border-radius: 3px;
+  background: linear-gradient(197deg, #6246ff 0%, #ffb9b9 100%);
+  box-shadow: 0px 1px 63px 0px rgba(244, 239, 255, 0.2) inset;
+}
+header .section .main .indikators .carta .visa-card .visa h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .main .indikators .carta .visa-card .visa img {
+  padding-left: 28px;
+}
+header .section .main .indikators .carta .visa-card .visa2 {
+  background: linear-gradient(197deg, #ffa346 0%, #f2e32e 100%);
+}
+header .section .main .indikators .carta .visa-card .visa3 {
+  background: linear-gradient(197deg, #3b3b3b 0%, #767676 100%);
+}
+header .section .main .indikators .example {
+  padding: 15px;
+  max-width: 445px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+header .section .main .indikators .example .expense {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .section .main .indikators .example .expense .this {
+  padding: 4px 6px;
+  border-radius: 50%;
+  border: 2px solid var(--gray-blue-grey-blue-97, #f5f6f7);
+  background: var(--white-white, #fff);
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+header .section .main .indikators .example .expense h1 {
+  color: #83f;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+}
+header .section .main .indikators .example .expense h2 {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .main .indikators .example .div {
+  width: 81px;
+  height: 2px;
+  background: #8833ff;
+  margin-left: 80px;
+}
+header .section .main .indikators .example .wrap .chart {
+  padding-top: 60px;
+  padding: 45px;
+  padding-bottom: 0px;
+}
+header .section .main .indikators .example .wrap .selection {
+  padding: 45px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+header .section .main .indikators .example .wrap .selection .space {
+  padding: 6px 20px 6px 15px;
+  border-radius: 20px;
+  border: 2px solid #f5f6f7;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .section .main .indikators .example .wrap .selection .space span {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .main .can .valudation {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+  width: 635px;
+  height: 655px;
+  overflow-y: scroll;
+}
+header .section .main .can .valudation ::-webkit-scrollbar-thumb {
+  background: #29cc39;
+  border-radius: 4px;
+}
+header .section .main .can .valudation ::-webkit-scrollbar-track {
+  background: #29cc39;
+  border-radius: 4px;
+}
+header .section .main .can .valudation ::-webkit-scrollbar-track-piece {
+  background: #29cc39;
+  border-radius: 4px;
+}
+header .section .main .can .valudation .nav {
+  border-bottom: 2px solid #f5f6f7;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+header .section .main .can .valudation .nav .vector {
+  padding: 5px 5px 0px;
+  border-radius: 100px;
+  border: 2px solid #f5f6f7;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+header .section .main .can .valudation .nav .vector img {
+  border-radius: 50%;
+}
+header .section .main .can .valudation .nav ul {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+header .section .main .can .valudation .nav ul li a {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+header .section .main .can .valudation .nav ul li a:hover {
+  color: #83f;
+  border-bottom: 2px solid #83f;
+}
+header .section .main .can .valudation .starbuck {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #f5f6f7;
+}
+header .section .main .can .valudation .starbuck .starbuck1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+header .section .main .can .valudation .starbuck .starbuck1 img {
+  padding-right: 20px;
+}
+header .section .main .can .valudation .starbuck .starbuck1 h1 {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+}
+header .section .main .can .valudation .starbuck .starbuck1 h3 {
+  color: #4d5e80;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+}
+header .section .main .can .valudation .starbuck .starbuck1 .cashback {
+  padding: 5px 15px;
+  background: #f7f8fa;
+  border-radius: 15px;
+}
+header .section .main .can .valudation .starbuck .starbuck1 .cashback h4 {
+  color: #29cc39;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+}
+header .section .main .can .valudation .starbuck .starbuck1 .cashback h5 {
+  color: #6b7a99;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+}
+header .section .main .can .valudation .starbuck .starbuck2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .section .main .can .valudation .starbuck .starbuck2 .cashback {
+  padding: 5px 15px;
+  background: #f7f8fa;
+  border-radius: 15px;
+}
+header .section .main .can .valudation .starbuck .starbuck2 .cashback h5 {
+  color: #6b7a99;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+}
+header .section .main .can .valudation .starbuck .starbuck2 .vector {
+  padding: 5px 5px 0px;
+  border-radius: 100px;
+  border: 2px solid #f5f6f7;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+header .section .main .can .nice {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 635px;
+  gap: 30px;
+}
+header .section .main .can .nice .net {
+  padding: 10px 25px 25px 25px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.05);
+}
+header .section .main .can .nice .net .fasbuk {
+  display: none;
+}
+header .section .main .can .nice .net .in img {
+  padding: 25px;
+}
+header .section .main .can .nice .net h4 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #4d5e80;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .main .can .nice .net1 {
+  padding: 40px 40px 0px 40px;
+}
+header .section .main .can .nice .net1 .twittr {
+  display: flex;
+  gap: 15px;
+}
+header .section .main .can .nice .net1 .twittr img {
+  padding: 30px 0;
+}
+header .section .main .can .nice .net2 {
+  padding: 10px 35px 25px 35px;
+}
+header .section .clayton {
+  width: 350px;
+  padding: 30px;
+  border-left: 2px solid #d2d2d5;
+}
+header .section .clayton h3 {
+  color: #7d8fb3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .clayton .count {
+  display: flex;
+  justify-content: space-between;
+}
+header .section .clayton .plus {
+  padding: 20px 49px 20px 70px;
+}
+header .section .clayton h1 {
+  color: #6b7a99;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+header .section .clayton .master {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+header .section .clayton .master h2 {
+  color: #6b7a99;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .clayton .visa-card {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .section .clayton .visa-card .master-card {
+  display: flex;
+  justify-content: space-between;
+}
+header .section .clayton .visa-card .master-card .auto {
+  display: flex;
+}
+header .section .clayton .visa-card .master-card .auto .visa {
+  padding: 4px 7px;
+  width: 65px;
+  height: 45px;
+  border-radius: 3px;
+  background: linear-gradient(197deg, #6246ff 0%, #ffb9b9 100%);
+  box-shadow: 0px 1px 63px 0px rgba(244, 239, 255, 0.2) inset;
+}
+header .section .clayton .visa-card .master-card .auto .visa h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .clayton .visa-card .master-card .auto .visa img {
+  padding-left: 28px;
+}
+header .section .clayton .visa-card .master-card .auto .visa2 {
+  background: linear-gradient(197deg, #ffa346 0%, #f2e32e 100%);
+}
+header .section .clayton .visa-card .master-card .auto .visa3 {
+  background: linear-gradient(197deg, #3b3b3b 0%, #767676 100%);
+}
+header .section .clayton .visa-card .master-card .auto .dolor {
+  padding-left: 30px;
+}
+header .section .clayton .visa-card .master-card .auto .dolor h4 {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #6b7a99;
+  font-weight: 900;
+  line-height: 20px;
+}
+header .section .clayton .visa-card .master-card .vector {
+  padding: 8px 8px 0px 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+header .section .clayton .settings {
+  padding-bottom: 60px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .section .clayton .settings .part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .section .clayton .settings .part .img {
+  padding: 3px 6px;
+  background: #fff;
+  border-radius: 50%;
+}
+header .section .clayton .help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  border-radius: 10px;
+  background: rgba(255, 203, 51, 0.1);
+  padding: 26px 85px;
+}
+header .section .clayton .help img {
+  margin: 0 auto;
+}
+header .section .clayton .help h2 {
+  color: #f63;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+header .section .clayton .help h4 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+  color: #83f;
+}
